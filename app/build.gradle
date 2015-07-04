@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "lb.com.parallaxviewpagers"
-        minSdkVersion 9
+        minSdkVersion 7
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
