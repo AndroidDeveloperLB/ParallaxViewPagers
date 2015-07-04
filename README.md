@@ -10,7 +10,19 @@ Here's how it looks like:
 
 ![enter image description here](https://github.com/AndroidDeveloperLB/ParallaxViewPagers/blob/master/demo.gif?raw=true)
 
+How to import
+--
+Currently, because there is an issue (read below), I didn't put an official release, but you can still use Gradle in case you don't care or can't reproduce the issue in your app (link [here](https://jitpack.io/#AndroidDeveloperLB/ParallaxViewPagers/)) :
 
+    repositories {
+    	    maven {
+    	        url "https://jitpack.io"
+    	    }
+    	}
+    
+    dependencies {
+    	        compile 'com.github.AndroidDeveloperLB:ParallaxViewPagers:19516eb03a'
+    	}
 
 
 Known issues
