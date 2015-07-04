@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ParallaxViewPagers.iml" filepath="$PROJECT_DIR$/ParallaxViewPagers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallax_view_pagers_library/parallax_view_pagers_library.iml" filepath="$PROJECT_DIR$/parallax_view_pagers_library/parallax_view_pagers_library.iml" />
     </modules>
   </component>
 </project>

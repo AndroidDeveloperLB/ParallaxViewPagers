@@ -1,4 +1,4 @@
-package lb.com.demo;
+package lb.com.parallax_view_pagers_library;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

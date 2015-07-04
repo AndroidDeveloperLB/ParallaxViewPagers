@@ -1,4 +1,4 @@
-package lb.com.demo;
+package lb.com.parallaxviewpagers.demo;
 
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.concurrent.atomic.AtomicReference;
 
+import lb.com.parallaxviewpagers.ParallaxOnPageChangeListener;
 
 public class MainActivity extends AppCompatActivity
   {
