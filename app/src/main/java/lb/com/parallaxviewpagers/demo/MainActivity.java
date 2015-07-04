@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity
     AtomicReference<ViewPager> masterRef=new AtomicReference<>();
     viewPager.addOnPageChangeListener(new ParallaxOnPageChangeListener(viewPager,viewPager2,masterRef));
     viewPager2.addOnPageChangeListener(new ParallaxOnPageChangeListener(viewPager2,viewPager,masterRef));
-
     }
 
   private class MyPagerAdapter extends PagerAdapter
