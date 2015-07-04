@@ -24,6 +24,20 @@ Currently, because there is an issue (read below), I didn't put an official rele
     	        compile 'com.github.AndroidDeveloperLB:ParallaxViewPagers:19516eb03a'
     	}
 
+How to use
+--
+Just prepare the viewpagers, and for each "viewPager" that you need to allow to affect "viewPager2" , use:
+
+    viewPager.addOnPageChangeListener(new ParallaxOnPageChangeListener(viewPager,viewPager2,masterRef));
+
+where "masterRef" is a shared AtomicReference variable that's used to decide which of them is the current "master" to affect the others.
+
+Example of 2 ViewPagers, each can affect the other:
+
+    AtomicReference<ViewPager> masterRef=new AtomicReference<>();
+    viewPager.addOnPageChangeListener(new ParallaxOnPageChangeListener(viewPager,viewPager2,masterRef));
+    viewPager2.addOnPageChangeListener(new ParallaxOnPageChangeListener(viewPager2,viewPager,masterRef));
+
 
 Known issues
 ------------
