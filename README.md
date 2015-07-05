@@ -42,3 +42,4 @@ Example of 2 ViewPagers, each can affect the other:
 Known issues
 ------------
 Sometimes, the other ViewPager might have a "flashing" effect.
+A workaround for this, is to pass the touch events from the container of the various viewpagers, to the master viewpager.
